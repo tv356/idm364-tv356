@@ -1,0 +1,24 @@
+[05-Mar-2025 05:15:01 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Mar-2025 06:12:57 UTC] Cron reschedule event error for hook: wpseo_indexable_index_batch, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"fifteen_minutes","args":[],"interval":900}
+[06-Mar-2025 00:51:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NewfoldLabs\WP\Module\Data\Listeners\wc_get_is_paid_statuses() in /home1/puifchmy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php:86
+Stack trace:
+#0 /home1/puifchmy/public_html/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Data\Listeners\Commerce->orders_count(Array)
+#1 /home1/puifchmy/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home1/puifchmy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Cron.php(49): apply_filters('newfold_wp_data...', Array)
+#3 /home1/puifchmy/public_html/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Data\Listeners\Cron->update()
+#4 /home1/puifchmy/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home1/puifchmy/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#6 /home1/puifchmy/public_html/wp-cron.php(191): do_action_ref_array('nfd_data_cron', Array)
+#7 {main}
+  thrown in /home1/puifchmy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php on line 86
+[13-Mar-2025 00:45:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function NewfoldLabs\WP\Module\Data\Listeners\wc_get_is_paid_statuses() in /home1/puifchmy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php:86
+Stack trace:
+#0 /home1/puifchmy/public_html/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Data\Listeners\Commerce->orders_count(Array)
+#1 /home1/puifchmy/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /home1/puifchmy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Cron.php(49): apply_filters('newfold_wp_data...', Array)
+#3 /home1/puifchmy/public_html/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Data\Listeners\Cron->update()
+#4 /home1/puifchmy/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /home1/puifchmy/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#6 /home1/puifchmy/public_html/wp-cron.php(191): do_action_ref_array('nfd_data_cron', Array)
+#7 {main}
+  thrown in /home1/puifchmy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php on line 86
